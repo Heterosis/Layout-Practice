@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.jumbotron {
+    background-color: rgb(0, 204, 204);
+    color: white;
+}
+
+.container-fluid {
+    padding: 5vh 5vw;
+}
+
+.logo {
+    font-size: 200px;
+}
+
+.service-card {
+    border: 0;
+}
+
+.service-card .card-title {
+    color: hsl(120, 100%, 15%);
+    font-size: 100px;
+}
+
+.service-card .card-link {
+    width: 50%;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 500px;
+}
+
+.modal-img {
+    max-width: 100%;
+    max-height: 85vh;
+}
+
+.carousel-item {
+    padding: 5%;
+}
+
+.fake-img {
+    font-size: 200px;
+}
+
+#pricing .card:hover {
+    box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+}
+
+#portfolio .card:hover {
+    box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+}

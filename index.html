@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Layout Practice</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/8ef8916ff2.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="0">
+    <nav id="navbar" class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="home" class="jumbotron text-center mt-3">
+        <h1>Company</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit.</p>
+        <form class="form-inline d-flex justify-content-center">
+            <div class="input-group">
+                <input type="email" class="form-control" size="50" placeholder="Email" required>
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-info">Subscribe</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div id="features" class="container-fluid">
+        <div class="container-fluid d-md-flex align-items-center">
+            <div class="col-md-8">
+                <h2>About</h2>
+                <h3>Lorem ipsum dolor sit amet. </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur urna nisi, pharetra vel porta sed,
+                    lobortis tempus arcu. Vestibulum at accumsan arcu. Nunc consectetur nibh in elementum mattis. Sed
+                    sit
+                    amet
+                    tincidunt sapien, sed sodales nisi. Ut at varius enim, quis tincidunt nunc. Curabitur aliquam felis
+                    lorem,
+                    id volutpat sapien interdum in. Nullam gravida libero non rutrum vestibulum. Suspendisse potenti.
+                    Vestibulum
+                    eu elit nisl. Sed interdum lectus et viverra ornare. Sed feugiat egestas nisl. Nam et malesuada
+                    lectus,
+                    ut
+                    tempor dolor. </p>
+                <button type="button" class="btn btn-outline-secondary btn-lg">More</button>
+            </div>
+            <div class="col-md-4 text-center"><i class="fas fa-briefcase logo"></i></div>
+        </div>
+        <div class="container-fluid bg-light d-md-flex align-items-center">
+            <div class="col-md-4 text-center"><i class="fas fa-globe-asia logo"></i></div>
+            <div class="col-md-8">
+                <h2>Goals</h2>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet efficitur ante eu
+                    porttitor.
+                    Donec eget tortor id libero cursus vulputate. Vivamus lacus enim, porta sit amet condimentum et,
+                    molestie
+                    sit amet nisl. Integer vulputate venenatis tellus id sollicitudin. Vivamus fermentum augue nisl,
+                    eget
+                    tempor
+                    ipsum hendrerit eget. Phasellus placerat tellus eget turpis feugiat, vel facilisis urna suscipit.
+                    Aliquam
+                    molestie ornare sapien vitae aliquet. Nulla eu nulla euismod, egestas sem sed, varius urna. Nunc
+                    lorem
+                    massa, tincidunt ut tellus nec, rutrum imperdiet ipsum. Quisque sit amet varius erat, nec blandit
+                    ligula.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container-fluid text-center">
+            <h2>Services</h2>
+            <div class="container-fluid">
+                <div class="row mb-5">
+                    <div class="col-md card service-card">
+                        <h5 class="card-title"><i class="fas fa-birthday-cake"></i></h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus.
+                        </p>
+                        <button type="button" class="card-link btn btn-outline-info mx-auto">More</button>
+                    </div>
+                    <div class="col-md card service-card">
+                        <h5 class="card-title"><i class="fas fa-business-time"></i></h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida.</p>
+                        <button type="button" class="card-link btn btn-outline-info mx-auto">More</button>
+                    </div>
+                    <div class="col-md card service-card">
+                        <h5 class="card-title"><i class="fas fa-coffee"></i></h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                            malesuada.
+                        </p>
+                        <button type="button" class="card-link btn btn-outline-info mx-auto">More</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md card service-card">
+                        <h5 class="card-title"><i class="far fa-compass"></i></h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed.</p>
+                        <button type="button" class="card-link btn btn-outline-info mx-auto">More</button>
+                    </div>
+                    <div class="col-md card service-card">
+                        <h5 class="card-title"><i class="fas fa-calendar-check"></i></h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet.
+                        </p>
+                        <button type="button" class="card-link btn btn-outline-info mx-auto">More</button>
+                    </div>
+                    <div class="col-md card service-card">
+                        <h5 class="card-title"><i class="fas fa-gamepad"></i></h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur.
+                        </p>
+                        <button type="button" class="card-link btn btn-outline-info mx-auto">More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio" class="container-fluid bg-light text-center">
+        <h2>Portfolio</h2>
+        <div class="container-fluid bg-light d-lg-flex justify-content-between text-center">
+            <div class="card bg-light mx-3">
+                <img src="img/ancient-architecture-building-161913.jpg" class="card-img-top" alt="Castle" type="button"
+                    data-toggle="modal" data-target="#modal-castle">
+                <h5 class="card-title mt-2">We didn't build this</h5>
+                <p class="card-text px-5 pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at.
+                </p>
+            </div>
+            <div class="card bg-light mx-3">
+                <img src="img/apartment-architectural-design-architecture-1115804.jpg" class="card-img-top" alt="House"
+                    type="button" data-toggle="modal" data-target="#modal-house">
+                <h5 class="card-title mt-2">We didn't build this, either</h5>
+                <p class="card-text px-5 pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    diam.</p>
+            </div>
+            <div class="card bg-light mx-3">
+                <img src="img/architectural-design-architecture-building-1759478.jpg" class="card-img-top"
+                    alt="Skyscraper" type="button" data-toggle="modal" data-target="#modal-skyscraper">
+                <h5 class="card-title mt-2">Definitely not our work</h5>
+                <p class="card-text px-5 pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rutrum.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="modal-area">
+        <div class="modal fade" id="modal-castle">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">We didn't build this</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="img/ancient-architecture-building-161913.jpg" class="modal-img" alt="Castle">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal-house">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">We didn't build this, either</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="img/apartment-architectural-design-architecture-1115804.jpg" class="modal-img"
+                            alt="House">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal-skyscraper">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Definitely not our work</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="img/architectural-design-architecture-building-1759478.jpg" class="modal-img"
+                            alt="Skyscraper">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-center bg-dark text-light">
+        <h2>What our customers say</h2>
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExample" data-slide-to="1"></li>
+                <li data-target="#carouselExample" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <i class="far fa-smile fake-img"></i>
+                    <h5>Fusce mollis</h5>
+                    <p>Aliquam finibus, justo sed blandit pulvinar, libero.</p>
+                </div>
+                <div class="carousel-item">
+                    <i class="far fa-smile fake-img"></i>
+                    <h5>In luctus</h5>
+                    <p>Etiam non nulla a augue aliquam fringilla.</p>
+                </div>
+                <div class="carousel-item">
+                    <i class="far fa-smile fake-img"></i>
+                    <h5>Praesent euismod</h5>
+                    <p>Sed vitae enim enim. Praesent maximus nisl.</p>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div id="pricing" class="container-fluid text-center">
+        <h2>Pricing</h2>
+        <div class="container-fluid d-lg-flex justify-content-around text-center">
+            <div class="card bg-light mx-3">
+                <div class="card-header">
+                    <h5 class="card-title">First Tier</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Nunc vitae felis aliquam nunc iaculis maximus.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="card-link btn btn-outline-primary mx-auto">More</button>
+                </div>
+            </div>
+            <div class="card bg-light mx-3">
+                <div class="card-header">
+                    <h5 class="card-title">Second Tier</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Nunc vitae felis aliquam nunc iaculis maximus.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item text-warning">Proin elementum pulvinar</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="card-link btn btn-outline-primary mx-auto">More</button>
+                </div>
+            </div>
+            <div class="card bg-light mx-3">
+                <div class="card-header">
+                    <h5 class="card-title">Third Tier</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Nunc vitae felis aliquam nunc iaculis maximus.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item text-warning">Proin elementum pulvinar</li>
+                        <li class="list-group-item text-danger">Nulla porttitor nunc.</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="card-link btn btn-outline-primary mx-auto">More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="container-fluid bg-light text-center">
+        <h2>Contact</h2>
+        <div class="row mt-4">
+            <div class="col-sm-5">
+                <p><i class="fas fa-map-marker-alt mr-1"></i></span>Pellentesque, enim</p>
+                <p><i class="fas fa-phone mr-1"></i></span>0123456789</p>
+                <p><i class="fas fa-envelope-open-text mr-1"></i></span>Mauris@velit.com</p>
+            </div>
+            <div class="col-sm-7">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="姓名" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="評論" rows="3"></textarea>
+                <button class="mt-2 btn btn-block btn-success" type="submit">Send</button>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid text-center">
+        <a href="#home" title="To Top">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+        <p>Made By Heterosis</p>
+    </footer>
+</body>
+
+</html>
